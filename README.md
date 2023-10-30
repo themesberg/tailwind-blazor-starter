@@ -16,6 +16,12 @@ Then run this command to compile the source code and watch for changes:
 dotnet watch
 ```
 
+Make sure that you also run the following script to compile the Tailwind CSS source code:
+
+```Bash
+npx tailwindcss -i wwwroot/css/app.css -o wwwroot/css/app.min.css --watch
+```
+
 Run this command to build your project and all its dependencies:
 
 ```Bash
