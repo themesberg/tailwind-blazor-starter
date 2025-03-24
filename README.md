@@ -1,9 +1,9 @@
 # Tailwind CSS + Blazor.NET + Flowbite Starter
-Get started with this starter project based on a Tailwind CSS, Blazor.NET and Flowbite configuration to help you ger started building website applications based on the utility classes from Tailwind CSS and components from Flowbite.
 
-This repository is based on the Tailwind CSS + Blazor.NET guide on the Flowbite website. 
+Get started with this open-source project based on a Tailwind CSS, Blazor.NET and Flowbite configuration to help you get started building website applications based on the utility classes from Tailwind CSS and components from Flowbite. Read our [guide from Flowbite](https://flowbite.com/docs/getting-started/blazor/) to learn how set things up from the scratch.
 
 ## Getting started
+
 Ensure that you have NPM and Node.js installed on your project. Also ensure you have installed the .NET SDK to enable you to develop .NET applications. Run the following command to install all dependencies:
 
 ```Bash
@@ -19,7 +19,7 @@ dotnet watch
 Make sure that you also run the following script to compile the Tailwind CSS source code:
 
 ```Bash
-npx tailwindcss -i wwwroot/css/app.css -o wwwroot/css/app.min.css --watch
+npx tailwindcss -i wwwroot/css/input.css -o wwwroot/css/output.css --watch
 ```
 
 Run this command to build your project and all its dependencies:
@@ -27,8 +27,9 @@ Run this command to build your project and all its dependencies:
 ```Bash
 dotnet build
 ```
-## Flowbite Components
+
 ## Flowbite Components in a Blazor Project
+
 Now that you have successfully installed Blazor.NET, Tailwind CSS and Flowbite, you can start using Flowbite's components such as navbars, buttons, and modals in your project.
 
 We'll use a dropdown component with the hover effect as an example. Copy/paste this [code block](https://flowbite.com/docs/components/dropdowns/) into your Pages/Index.razor file:
@@ -62,4 +63,5 @@ We'll use a dropdown component with the hover effect as an example. Copy/paste t
 [Learn more](https://github.com/themesberg/flowbite-blazor) about the Flowbite-Blazor library and how to customize it to your project.
 
 ## License
+
 This project is open-source under the MIT license.
